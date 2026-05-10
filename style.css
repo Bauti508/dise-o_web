@@ -1,0 +1,148 @@
+
+
+body{
+    background-color: #346739;
+    color: #F2EDC2;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    color: #F2EDC2;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+
+
+.logo{
+    width: 500px;
+    height: auto;
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    list-style: none;
+}
+
+nav a{
+    color: #F2EDC2;
+    text-decoration: none;
+}
+
+
+
+.subtitulo{
+    color: #9FCB98;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+
+
+.contenedor-cards{
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+
+
+.card{
+    color: #bcf3c2;
+    background-color: #168734;
+
+    border-radius: 8px;
+    border: 3px solid #F2EDC2;
+
+    padding: 20px;
+    margin: 20px;
+
+    width: 300px;
+    height: 450px;
+
+    text-align: center;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.card img{
+    width: 80%;
+    height: auto;
+
+    display: block;
+    margin: 10px auto;
+}
+
+
+button{
+    background-color: #346739;
+    color: #F2EDC2;
+
+    border: 2px solid #F2EDC2;
+    border-radius: 5px;
+
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+
+footer{
+    color: #346739;
+    background-color: #9FCB98;
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+
+@media (max-width: 768px){
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    .contenedor-cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .logo{
+        width: 90%;
+    }
+}
+
